@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9=f63x4x98bscb!=yh(a7v!%@7pohu%9k%kt1q!@fah8esn@72'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'phunt-clone.herokuapp.com']
+ALLOWED_HOSTS = ['phunt-clone.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
